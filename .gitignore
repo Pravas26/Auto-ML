@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Dataset Storage (keep folder, ignore files)
+storage/datasets/*
+!storage/datasets/.gitkeep
+
+# Saved Models
+storage/models/*
+!storage/models/.gitkeep
+
+# Reports
+storage/reports/*
+!storage/reports/.gitkeep
+
+# Temporary Files
+storage/temp/*
+!storage/temp/.gitkeep
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS Files
+.DS_Store
+Thumbs.db
